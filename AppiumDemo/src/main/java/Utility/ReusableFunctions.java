@@ -47,7 +47,7 @@ public class ReusableFunctions extends BaseTest{
 	public static JSONObject testDataProvider(String testcaseNumber) throws IOException, ParseException
     {
     	JSONParser jsonParser = new JSONParser();
-        FileReader reader = new FileReader("C:\\Users\\tkhan\\Desktop\\Roche\\AppiumDemo\\src\\main\\resources\\testdata\\CreateUserTestData.JSON");
+        FileReader reader = new FileReader("C:\\Users\\tkhan\\git\\appiumapi\\AppiumDemo\\AppiumDemo\\src\\main\\java\\appiumTestData\\CreateUserTestData.JSON");
 		Object obj =   jsonParser.parse(reader) ;
         JSONObject myobj = (JSONObject) obj;
         JSONArray jsonDataarrays = (JSONArray) myobj.get(testcaseNumber);

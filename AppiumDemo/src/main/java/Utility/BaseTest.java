@@ -46,7 +46,7 @@ public class BaseTest extends TestListener implements ITestListener{
 		caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Samsung A50");
 		caps.setCapability(MobileCapabilityType.UDID, "RZ8M41YBJWA");
 		caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 60);
-		caps.setCapability(MobileCapabilityType.APP, "C:\\Users\\tkhan\\Desktop\\AppiumAPI-master\\AppiumAPI-master\\AppiumDemo\\fh.apk");
+		caps.setCapability(MobileCapabilityType.APP, "C:\\Users\\tkhan\\git\\appiumapi\\AppiumDemo\\fh.apk");
 		URL url = new URL("http://127.0.0.1:4723/wd/hub");
 		driver = new AppiumDriver<MobileElement>(url,caps);
 		myExtent = ExtentManager.GetExtent();

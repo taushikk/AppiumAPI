@@ -27,6 +27,13 @@
           <include name="getUser"/>
         </methods>
       </class> <!-- APITestCases.GetUser -->
+      <class name="AppiumTestCases.SearchTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="TestSetUp"/>
+          <include name="searchUserByNameByExcel"/>
+        </methods>
+      </class> <!-- AppiumTestCases.SearchTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
